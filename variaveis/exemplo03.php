@@ -21,7 +21,10 @@ $nascimento = new DateTime();
 // Tipo Especial
 
 $arquivo = fopen("exemplo03.php", "r");
-var_dump($arquivo);
+//var_dump($arquivo);
+
+$nulo = NULL; // não possui espaço de memória atribuida
+$vazio = ""; //possui espaço de memória reservado
 
 
 ?>
