@@ -20,7 +20,7 @@ $nascimento = new DateTime();
 ////////////////////////////////////////////
 // Tipo Especial
 
-$arquivo = fopen("exemplo03.php");
+$arquivo = fopen("exemplo03.php", "r");
 var_dump($arquivo);
 
 
